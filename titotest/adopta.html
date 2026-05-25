@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="es" data-ek-variant="adopta">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Adopta una hectárea del Río Curia · EarthKeeper</title>
+<meta name="description" content="Por menos de un almuerzo al mes, apadrina una hectárea concreta del bosque tropical en San Juan de Arama, Meta. Recibe foto, nombre de la familia que la cuida y reporte trimestral en video." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="shared.css" />
+<script src="config.js"></script>
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="ek-header">
+  <div class="ek-shell ek-header__row">
+    <a class="ek-logo" href="/" aria-label="EarthKeeper">
+      <span class="ek-logo__mark">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5c-7 .3-12 3.2-14.2 8C4.6 15 5 18.7 7.5 21l1.6-1.6c-.6-1.8-.5-3.6.4-5.3.6 2.1 1.9 3.7 3.9 4.6 4.5 1.9 8.6-1.4 8.6-8.3 0-2-.5-4.4-1.5-6.9z"/></svg>
+      </span>
+      EarthKeeper
+    </a>
+    <nav class="ek-header__nav" aria-label="Navegación">
+      <a href="#problema">El problema</a>
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#familia">Los guardianes</a>
+      <a class="ek-btn ek-btn--ink" href="#form" data-ek-scroll-form>Apadrinar ahora</a>
+    </nav>
+  </div>
+  <div class="ek-progress"><div class="ek-progress__fill" data-ek-progress></div></div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="ek-hero ek-hero--editorial">
+  <div class="ek-shell">
+    <div class="ek-hero__body">
+      <div class="ek-coords" data-anim="up-sm">
+        <span><i data-ek-icon="map-pin" data-ek-size="11" class="ek-coords__pin"></i> <strong>3°23′N · 73°52′W</strong></span>
+        <span>Cuenca Río Curia · Meta</span>
+        <span>Asignación #148 — <strong>hace 3 min</strong></span>
+      </div>
+
+      <h1 class="ek-hero__title ek-hero__title--editorial" data-anim="up">
+        <small>POC · 2 semanas · Meta Ads</small>
+        Por menos de un almuerzo al mes, <em>una hectárea del Meta</em> deja de estar en riesgo.
+      </h1>
+
+      <p class="ek-hero__sub ek-hero__sub--editorial" data-anim="up">
+        Apadrina una hectárea concreta del bosque tropical. Una familia campesina
+        del Río Curia la cuida en tu nombre. Recibes foto, reporte trimestral en
+        video y tu nombre en el mapa de guardianes.
+      </p>
+
+      <div class="ek-hero__ctas" data-anim="up">
+        <a class="ek-btn ek-btn--lg" href="#form" data-ek-scroll-form data-ek-magnet="0.22">
+          Apadrinar mi hectárea
+          <span class="arrow-i" style="display:inline-flex"><i data-ek-icon="arrow" data-ek-size="16"></i></span>
+        </a>
+        <a class="ek-btn ek-btn--ghost" href="#como-funciona">Cómo funciona</a>
+      </div>
+
+      <div class="ek-social-proof" data-anim="up">
+        <span class="ek-social-proof__item">
+          <span class="ek-dot"></span>
+          <strong><span data-ek-live>147</span> hectáreas</strong> apadrinadas
+        </span>
+        <span class="ek-social-proof__item"><strong>12 familias</strong> trabajando</span>
+        <span class="ek-social-proof__item"><strong>3 jun</strong> próxima asignación</span>
+      </div>
+    </div>
+
+    <!-- Hectare grid visualization -->
+    <aside class="ek-hectare" data-anim="right" data-delay="200" aria-label="Visualización de hectáreas del Río Curia">
+      <div class="ek-hectare__panel">
+        <div class="ek-hectare__header">
+          <div class="ek-hectare__label">Mapa de guardianes — Río Curia</div>
+          <div class="ek-hectare__meta">CRC-<strong>148</strong> / 336</div>
+        </div>
+        <svg
+          class="ek-hectare__grid"
+          data-ek-hectare-grid
+          data-cols="24"
+          data-rows="14"
+          data-apadrinadas="147"
+          data-your-idx="171"
+          data-cell-size="11"
+          data-gap="3"
+          data-padding="4"
+          role="img"
+          aria-label="336 hectáreas, 147 apadrinadas, una resaltada como tu próxima"
+        ></svg>
+        <div class="ek-hectare__legend">
+          <span class="ek-hectare__legend-item ek-hectare__legend-item--mint">147 <span>apadrinadas</span></span>
+          <span class="ek-hectare__legend-item ek-hectare__legend-item--orange">CRC-148 <span>tu próxima</span></span>
+          <span class="ek-hectare__legend-item ek-hectare__legend-item--ghost">188 <span>disponibles</span></span>
+        </div>
+        <div class="ek-veredas">
+          <div class="ek-veredas__item"><span>La Esmeralda</span> <strong>42 ha</strong></div>
+          <div class="ek-veredas__item"><span>El Tablón</span> <strong>56 ha</strong></div>
+          <div class="ek-veredas__item"><span>Caño Cristal</span> <strong>38 ha</strong></div>
+          <div class="ek-veredas__item"><span>Alto Cumaral</span> <strong>49 ha</strong></div>
+        </div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ============ TRUST STRIP ============ -->
+<div class="ek-shell">
+  <div class="ek-trust">
+    <span class="ek-trust__item"><i data-ek-icon="shield" data-ek-size="16"></i> 100% va al territorio</span>
+    <span class="ek-trust__item"><i data-ek-icon="users" data-ek-size="16"></i> 12 familias guardianas</span>
+    <span class="ek-trust__item"><i data-ek-icon="tree" data-ek-size="16"></i> 480 hectáreas en cuidado</span>
+    <span class="ek-trust__item"><i data-ek-icon="map-pin" data-ek-size="16"></i> San Juan de Arama, Meta</span>
+  </div>
+</div>
+
+<!-- ============ PROBLEMA ============ -->
+<section class="ek-section" id="problema">
+  <div class="ek-shell">
+    <div class="ek-problem__grid">
+      <div data-anim="up">
+        <div class="ek-eyebrow">El problema</div>
+        <h2 class="ek-h2">
+          El bosque que respira por Colombia se está vendiendo a pedazos.
+        </h2>
+        <p class="ek-lede">
+          La cuenca del Río Curia está en el corredor más amenazado del país. Quienes
+          mejor saben cuidarla —las familias que viven ahí— casi nunca reciben los
+          recursos para hacerlo.
+        </p>
+      </div>
+      <div>
+        <div class="ek-stat" data-anim="up" data-delay="100">
+          <div class="ek-stat__num" data-count="76200" data-count-duration="1600">76.200</div>
+          <div class="ek-stat__body">
+            <strong>hectáreas deforestadas</strong> en Colombia en 2020.
+            Solo en los Llanos y la Amazonía. Equivale a 107.000 canchas de fútbol.
+          </div>
+        </div>
+        <div class="ek-stat" data-anim="up" data-delay="200">
+          <div class="ek-stat__num" data-count="12" data-count-suffix="%">12%</div>
+          <div class="ek-stat__body">
+            de los <strong>fondos internacionales</strong> de conservación llegan
+            realmente a las comunidades que protegen el bosque. El resto se queda
+            en consultorías y administración.
+          </div>
+        </div>
+        <div class="ek-stat" data-anim="up" data-delay="300">
+          <div class="ek-stat__num" data-count="29" data-count-prefix="$" data-count-suffix="k">$29k</div>
+          <div class="ek-stat__body">
+            COP al mes es lo que cuesta sostener el cuidado de <strong>una hectárea</strong>
+            por una familia local: monitoreo, reforestación y patrullaje.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CÓMO FUNCIONA ============ -->
+<section class="ek-section ek-section--cream" id="como-funciona">
+  <div class="ek-shell">
+    <div data-anim="up">
+      <div class="ek-eyebrow">Cómo funciona</div>
+      <h2 class="ek-h2" style="max-width:18ch">Tres pasos. Una hectárea con tu nombre.</h2>
+      <p class="ek-lede">
+        Tu aporte mensual no se diluye en un fondo: lo asignamos a una hectárea concreta
+        y a una familia que la cuida. Tú la ves crecer.
+      </p>
+    </div>
+
+    <div class="ek-steps">
+      <article class="ek-step" data-anim="up" data-delay="100" data-ek-tilt>
+        <div class="ek-step__icon"><i data-ek-icon="map-pin" data-ek-size="26"></i></div>
+        <div class="ek-step__num">01</div>
+        <h3 class="ek-step__title">Eliges tu hectárea</h3>
+        <p class="ek-step__body">
+          Te asignamos una hectárea georreferenciada en el Río Curia. Recibes su
+          ubicación, foto satelital y el nombre de la familia que la cuidará.
+        </p>
+      </article>
+      <article class="ek-step" data-anim="up" data-delay="200" data-ek-tilt>
+        <div class="ek-step__icon"><i data-ek-icon="users" data-ek-size="26"></i></div>
+        <div class="ek-step__num">02</div>
+        <h3 class="ek-step__title">Una familia la protege</h3>
+        <p class="ek-step__body">
+          Una familia campesina la patrulla, reforesta y monitorea. Tu aporte
+          mensual cubre su trabajo y los insumos. Sin intermediarios.
+        </p>
+      </article>
+      <article class="ek-step" data-anim="up" data-delay="300" data-ek-tilt>
+        <div class="ek-step__icon"><i data-ek-icon="camera" data-ek-size="26"></i></div>
+        <div class="ek-step__num">03</div>
+        <h3 class="ek-step__title">Ves cómo crece</h3>
+        <p class="ek-step__body">
+          Cada trimestre te llega un video corto de la familia desde la hectárea,
+          fotos y métricas. Tu nombre aparece en el mapa de guardianes.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TERRITORY BAND ============ -->
+<section class="ek-territory" aria-label="Cuenca del Río Curia">
+  <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=2400&q=80" alt="Aerial view of the Río Curia basin rainforest" loading="lazy" />
+  <div class="ek-territory__body">
+    <div class="ek-territory__inner" data-anim="up">
+      <div>
+        <div class="ek-territory__label">3°23′N · 73°52′W</div>
+        <h2 class="ek-territory__title">La cuenca del Río Curia.</h2>
+        <p class="ek-territory__sub">
+          480 hectáreas de bosque tropical en el corredor más amenazado de Colombia.
+          12 familias campesinas viven aquí y la cuidan desde hace tres generaciones.
+        </p>
+      </div>
+      <div class="ek-territory__meta">
+        <div><strong>480 ha</strong><span>bajo cuidado activo</span></div>
+        <div><strong>4 veredas</strong><span>San Juan de Arama, Meta</span></div>
+        <div><strong>30 t CO₂ / ha</strong><span>secuestro anual</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAMILIAS GUARDIANAS (directory) ============ -->
+<section class="ek-section ek-section--dark" id="familia">
+  <div class="ek-shell">
+    <div class="ek-dir-head" data-anim="up">
+      <div>
+        <div class="ek-eyebrow">Registro de guardianes</div>
+        <h2 class="ek-h2">12 familias campesinas patrullan el Río Curia.</h2>
+        <p class="ek-lede" style="margin-top:12px">
+          Cada hectárea que apadrinas se asigna a una de ellas. Conoce a
+          quienes cuidarán tu pedazo de bosque.
+        </p>
+      </div>
+      <div class="ek-dir-head__meta">
+        Registro vigente<br>
+        <strong>12 / 12</strong> familias activas<br>
+        San Juan de Arama · Meta
+      </div>
+    </div>
+
+    <div class="ek-directory">
+      <article class="ek-fam" data-anim="up" data-delay="50">
+        <div class="ek-fam__photo">
+          <img src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=900&q=80" alt="Bosque tropical de la vereda La Esmeralda" loading="lazy" />
+          <span class="ek-fam__id">REG-001</span>
+          <span class="ek-fam__since">Desde 1987</span>
+        </div>
+        <h3 class="ek-fam__name">Familia Quintero Beltrán</h3>
+        <span class="ek-fam__vereda"><i data-ek-icon="map-pin" data-ek-size="11"></i> La Esmeralda</span>
+        <p class="ek-fam__species">Protegen: <strong>saíno · tigrillo · mono araña</strong></p>
+        <dl class="ek-fam__meta">
+          <div><dt>Hectáreas</dt><dd>42 ha</dd></div>
+          <div><dt>Cultivos</dt><dd>Cacao, plátano</dd></div>
+        </dl>
+      </article>
+
+      <article class="ek-fam" data-anim="up" data-delay="100">
+        <div class="ek-fam__photo">
+          <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=900&q=80" alt="Paisaje montañoso de la vereda El Tablón" loading="lazy" />
+          <span class="ek-fam__id">REG-002</span>
+          <span class="ek-fam__since">Desde 1992</span>
+        </div>
+        <h3 class="ek-fam__name">Familia Hurtado Méndez</h3>
+        <span class="ek-fam__vereda"><i data-ek-icon="map-pin" data-ek-size="11"></i> El Tablón</span>
+        <p class="ek-fam__species">Protegen: <strong>oso palmero · paujil · danta</strong></p>
+        <dl class="ek-fam__meta">
+          <div><dt>Hectáreas</dt><dd>56 ha</dd></div>
+          <div><dt>Maderables</dt><dd>Yopo, ceiba</dd></div>
+        </dl>
+      </article>
+
+      <article class="ek-fam" data-anim="up" data-delay="150">
+        <div class="ek-fam__photo">
+          <img src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=900&q=80" alt="Río entre el bosque, vereda Caño Cristal" loading="lazy" />
+          <span class="ek-fam__id">REG-003</span>
+          <span class="ek-fam__since">Desde 1994</span>
+        </div>
+        <h3 class="ek-fam__name">Familia Ríos Castaño</h3>
+        <span class="ek-fam__vereda"><i data-ek-icon="map-pin" data-ek-size="11"></i> Caño Cristal</span>
+        <p class="ek-fam__species">Protegen: <strong>nutria · garza · armadillo</strong></p>
+        <dl class="ek-fam__meta">
+          <div><dt>Hectáreas</dt><dd>38 ha</dd></div>
+          <div><dt>Cultivos</dt><dd>Maíz, yuca</dd></div>
+        </dl>
+      </article>
+
+      <article class="ek-fam" data-anim="up" data-delay="200">
+        <div class="ek-fam__photo">
+          <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80" alt="Bosque alto de la vereda Alto Cumaral" loading="lazy" />
+          <span class="ek-fam__id">REG-004</span>
+          <span class="ek-fam__since">Desde 1985</span>
+        </div>
+        <h3 class="ek-fam__name">Familia Peña Torres</h3>
+        <span class="ek-fam__vereda"><i data-ek-icon="map-pin" data-ek-size="11"></i> Alto Cumaral</span>
+        <p class="ek-fam__species">Protegen: <strong>guacamaya · oso de anteojos</strong></p>
+        <dl class="ek-fam__meta">
+          <div><dt>Hectáreas</dt><dd>49 ha</dd></div>
+          <div><dt>Cultivos</dt><dd>Café, plátano</dd></div>
+        </dl>
+      </article>
+    </div>
+
+    <div class="ek-dir-foot" data-anim="up" data-delay="250">
+      <blockquote class="ek-dir-pull">
+        “Llevamos tres generaciones en este monte. Apadrinar es decirnos:
+        tu trabajo aquí, escondido entre los árboles, sí le importa a alguien.”
+        <cite>— Familia Quintero Beltrán · Vereda La Esmeralda</cite>
+      </blockquote>
+      <div class="ek-scoreboard">
+        <div class="ek-scoreboard__item">
+          <span class="ek-scoreboard__num">14<small>meses</small></span>
+          <span class="ek-scoreboard__label">de operación</span>
+        </div>
+        <div class="ek-scoreboard__item">
+          <span class="ek-scoreboard__num">0</span>
+          <span class="ek-scoreboard__label">deserciones</span>
+        </div>
+        <div class="ek-scoreboard__item">
+          <span class="ek-scoreboard__num">82<small>%</small></span>
+          <span class="ek-scoreboard__label">va a la familia</span>
+        </div>
+        <div class="ek-scoreboard__item">
+          <span class="ek-scoreboard__num">480<small>ha</small></span>
+          <span class="ek-scoreboard__label">bajo cuidado</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GARANTÍA + CTA FINAL ============ -->
+<section class="ek-section ek-section--cream" id="form" data-ek-cta-section>
+  <div class="ek-shell">
+    <div class="ek-guarantee" data-anim="up">
+      <div class="ek-guarantee__seal">
+        <div style="text-align:center">
+          <div class="ek-guarantee__seal-num">60</div>
+          <div class="ek-guarantee__seal-unit">días</div>
+        </div>
+      </div>
+      <div>
+        <div class="ek-guarantee__label">Garantía de transparencia</div>
+        <h3 class="ek-guarantee__title">
+          Si en 60 días no recibes la foto, coordenadas y nombre de la familia que cuida tu hectárea — te devolvemos cada peso.
+        </h3>
+        <p class="ek-guarantee__body">
+          Es la única promesa que importa. No "sentirás que ayudas": <strong>verás</strong> tu
+          hectárea en el mapa, sabrás quién la patrulla, recibirás su primera foto. Si algo
+          de eso falla en 60 días, escribes a hola@earthkeeper.co y devolvemos todo, sin preguntas.
+        </p>
+      </div>
+    </div>
+
+    <div class="ek-cta" data-ek-form-wrap data-anim="up" style="margin-top: clamp(40px, 5vw, 64px)">
+      <div>
+        <span class="ek-cta__seal">
+          <span class="ek-dot"></span>
+          Tu hectárea · CRC-148
+        </span>
+        <h2 class="ek-cta__title">Apadrina una hectárea por <span id="cta-price">$29.000 COP al mes</span>.</h2>
+        <p class="ek-cta__sub">
+          Es menos que un almuerzo. Y deja una hectárea concreta del Río Curia
+          en cuidado activo durante todo el mes.
+        </p>
+
+        <ul class="ek-clean-list">
+          <li><strong>Una hectárea georreferenciada</strong> del Río Curia, asignada a tu nombre con coordenadas GPS y foto satelital.</li>
+          <li><strong>Foto + nombre</strong> de la familia campesina que la patrullará y cuidará durante el mes.</li>
+          <li><strong>Video reporte trimestral</strong> de 3 min, filmado por la familia desde TU hectárea.</li>
+          <li><strong>Tu nombre permanente</strong> en el mapa de guardianes del Río Curia.</li>
+          <li><strong>WhatsApp directo</strong> con tu familia guardiana — pregúntales lo que quieras.</li>
+        </ul>
+
+        <div class="ek-breakdown">
+          <h4 class="ek-breakdown__label">De cada $29.000 que aportas</h4>
+          <div class="ek-breakdown__row">
+            <span class="ek-breakdown__where">Pago directo a la familia campesina</span>
+            <span class="ek-breakdown__amount">$23.780 <span>· 82%</span></span>
+            <div class="ek-breakdown__bar"><div style="width:82%"></div></div>
+          </div>
+          <div class="ek-breakdown__row">
+            <span class="ek-breakdown__where">Insumos · combustible, semillas, GPS</span>
+            <span class="ek-breakdown__amount">$3.480 <span>· 12%</span></span>
+            <div class="ek-breakdown__bar"><div style="width:12%"></div></div>
+          </div>
+          <div class="ek-breakdown__row">
+            <span class="ek-breakdown__where">Operación de la plataforma</span>
+            <span class="ek-breakdown__amount">$1.740 <span>· 6%</span></span>
+            <div class="ek-breakdown__bar"><div style="width:6%"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- WIZARD FORM -->
+      <form class="ek-form ek-wizard" data-ek-form data-ek-wizard novalidate>
+        <div class="ek-wizard__steps" aria-hidden="true">
+          <div class="ek-wizard__step-pill is-active" data-num="01"><span class="step-title">Tu hectárea</span></div>
+          <div class="ek-wizard__step-pill" data-num="02"><span class="step-title">Tus datos</span></div>
+          <div class="ek-wizard__step-pill" data-num="03"><span class="step-title">Confirmar</span></div>
+        </div>
+
+        <!-- STEP 1: Hectare assignment -->
+        <div class="ek-wizard__pane is-active" data-step="1">
+          <div style="display:flex; justify-content:space-between; align-items:center">
+            <span style="font-size:12px; letter-spacing:0.08em; text-transform:uppercase; font-weight:700; color:var(--ek-green-500)">¿Cuál hectárea quieres?</span>
+            <span class="ek-urgency">
+              <span class="ek-dot"></span>
+              24 hectáreas este mes
+            </span>
+          </div>
+
+          <div class="ek-radio-cards">
+            <label class="ek-radio-card">
+              <input type="radio" name="hectare_choice" value="proxima" checked />
+              <span class="ek-radio-card__dot" aria-hidden="true"></span>
+              <span class="ek-radio-card__body">
+                <strong>La próxima disponible (CRC-148)</strong>
+                <span>Vereda La Esmeralda · familia Quintero Beltrán · 42 ha</span>
+              </span>
+              <span class="ek-radio-card__tag">Más rápida</span>
+            </label>
+
+            <label class="ek-radio-card">
+              <input type="radio" name="hectare_choice" value="elegir" />
+              <span class="ek-radio-card__dot" aria-hidden="true"></span>
+              <span class="ek-radio-card__body">
+                <strong>Yo elijo la vereda</strong>
+                <span>Te enviamos el mapa por correo para que escojas entre las 4 veredas activas</span>
+              </span>
+            </label>
+
+            <label class="ek-radio-card">
+              <input type="radio" name="hectare_choice" value="sorpresa" />
+              <span class="ek-radio-card__dot" aria-hidden="true"></span>
+              <span class="ek-radio-card__body">
+                <strong>Sorpréndeme</strong>
+                <span>Asignamos a la familia con menos padrinos esta semana — donde más se necesita</span>
+              </span>
+            </label>
+          </div>
+
+          <div class="ek-wizard__nav ek-wizard__nav--single">
+            <button type="button" class="ek-btn ek-btn--block" data-ek-step-next>
+              Continuar
+              <span class="arrow-i" style="display:inline-flex"><i data-ek-icon="arrow" data-ek-size="14"></i></span>
+            </button>
+          </div>
+        </div>
+
+        <!-- STEP 2: Personal info -->
+        <div class="ek-wizard__pane" data-step="2">
+          <div class="ek-field">
+            <label for="nombre-a">Tu nombre</label>
+            <input id="nombre-a" name="nombre" type="text" autocomplete="name" required maxlength="120" placeholder="Como debe aparecer en el mapa de guardianes" />
+          </div>
+          <div class="ek-field">
+            <label for="email-a">Tu email</label>
+            <input id="email-a" name="email" type="email" autocomplete="email" required maxlength="254" placeholder="tu@correo.com" />
+          </div>
+          <p style="font-size:12px; color:var(--ek-green-500); margin:0; line-height:1.5">
+            Te escribimos a las <strong>48 horas</strong> con el certificado, foto satelital
+            y el contacto directo de tu familia guardiana.
+          </p>
+
+          <div class="ek-wizard__nav">
+            <button type="button" class="ek-btn ek-wizard__back" data-ek-step-back>← Atrás</button>
+            <button type="button" class="ek-btn ek-btn--block" data-ek-step-next>
+              Continuar
+              <span class="arrow-i" style="display:inline-flex"><i data-ek-icon="arrow" data-ek-size="14"></i></span>
+            </button>
+          </div>
+        </div>
+
+        <!-- STEP 3: Confirm + pay -->
+        <div class="ek-wizard__pane" data-step="3">
+          <dl class="ek-summary" data-ek-summary>
+            <div class="ek-summary__row">
+              <dt>Hectárea</dt>
+              <dd data-ek-sum-hectare>CRC-148 · La Esmeralda</dd>
+            </div>
+            <div class="ek-summary__row">
+              <dt>Familia guardiana</dt>
+              <dd>Quintero Beltrán</dd>
+            </div>
+            <div class="ek-summary__row">
+              <dt>A nombre de</dt>
+              <dd data-ek-sum-name>—</dd>
+            </div>
+            <div class="ek-summary__row">
+              <dt>Email</dt>
+              <dd data-ek-sum-email>—</dd>
+            </div>
+            <div class="ek-summary__row is-total">
+              <dt>Aporte mensual</dt>
+              <dd id="sum-price">$29.000 COP / mes</dd>
+            </div>
+          </dl>
+
+          <button type="submit" class="ek-btn ek-btn--block ek-btn--lg" data-ek-pay data-ek-magnet="0.12">
+            Apadrinar mi hectárea <span id="btn-price">— $29.000 COP</span>
+            <span class="arrow-i" style="display:inline-flex"><i data-ek-icon="arrow" data-ek-size="16"></i></span>
+          </button>
+          <div class="ek-wizard__nav ek-wizard__nav--single">
+            <button type="button" class="ek-btn ek-wizard__back" data-ek-step-back>← Atrás</button>
+          </div>
+          <p class="ek-form__fineprint">
+            Aporte recurrente mensual. Cancela cuando quieras. Garantía de 60 días.
+          </p>
+        </div>
+      </form>
+
+      <!-- THANKS -->
+      <div class="ek-thanks" data-ek-thanks role="status" aria-live="polite">
+        <div class="ek-thanks__check"><i data-ek-icon="check" data-ek-size="28"></i></div>
+        <div class="ek-thanks__title">¡Gracias, <span data-ek-thanks-name>amigo del bosque</span>!</div>
+        <p class="ek-thanks__body">
+          Estamos terminando de habilitar pagos seguros. En las próximas <strong>48 horas</strong>
+          te escribimos al correo que dejaste, con el link para apadrinar tu hectárea
+          y el nombre de la familia que la cuidará.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="ek-section" id="faq">
+  <div class="ek-shell" style="max-width:880px">
+    <div data-anim="up">
+      <div class="ek-eyebrow">Preguntas frecuentes</div>
+      <h2 class="ek-h2">Todo lo que necesitas saber antes de apadrinar.</h2>
+    </div>
+
+    <div class="ek-faq" data-anim="up" data-delay="100">
+      <details class="ek-faq__item">
+        <summary class="ek-faq__q">¿Cómo sé que la plata realmente llega a la familia guardiana?</summary>
+        <div class="ek-faq__a">
+          <p>Cada trimestre publicamos un reporte público en earthkeeper.co/transparencia con
+          los pagos hechos a cada familia, recibos firmados por ellos, y el extracto bancario
+          (anonimizado). De los $29.000 mensuales: $24.000 van directo a la familia, $3.500 a
+          insumos (combustible, semillas, GPS), y $1.500 a operación de la plataforma.</p>
+        </div>
+      </details>
+
+      <details class="ek-faq__item">
+        <summary class="ek-faq__q">¿Es deducible de impuestos en Colombia?</summary>
+        <div class="ek-faq__a">
+          <p>Estamos en proceso de obtener el régimen tributario especial (RTE). Mientras tanto,
+          si tu empresa hace el aporte como persona jurídica con ánimo ambiental, podemos
+          emitir factura electrónica (escríbenos a empresas@earthkeeper.co). Para personas
+          naturales hoy NO es deducible — todavía.</p>
+        </div>
+      </details>
+
+      <details class="ek-faq__item">
+        <summary class="ek-faq__q">¿Puedo visitar mi hectárea?</summary>
+        <div class="ek-faq__a">
+          <p>Sí. Una vez al año coordinamos un fin de semana de visitas a San Juan de Arama
+          con las familias guardianas. Cubre transporte desde Villavicencio, almuerzo y
+          recorrido por las parcelas. Cupos limitados (la idea no es interrumpir el trabajo
+          de las familias). Los padrinos activos tienen prioridad.</p>
+        </div>
+      </details>
+
+      <details class="ek-faq__item">
+        <summary class="ek-faq__q">¿Qué pasa si la familia abandona el territorio?</summary>
+        <div class="ek-faq__a">
+          <p>Te asignamos otra familia y otra hectárea, sin costo extra. Pero esto es muy
+          raro: las familias guardianas son las que viven ahí de toda la vida. Antes de
+          firmar con una familia, hacemos un acuerdo de 3 años con cláusula de continuidad.
+          Hasta hoy 0 deserciones en 14 meses de operación.</p>
+        </div>
+      </details>
+
+      <details class="ek-faq__item">
+        <summary class="ek-faq__q">¿Por qué no donar directamente a una ONG grande?</summary>
+        <div class="ek-faq__a">
+          <p>Porque <strong>12% de los fondos internacionales de conservación llegan
+          realmente a las comunidades</strong>. El resto se queda en consultorías y
+          administración. EarthKeeper opera con un modelo distinto: el 82% va directo a la
+          familia, el 12% a insumos, y el 6% a plataforma. Es público y auditado.</p>
+        </div>
+      </details>
+
+      <details class="ek-faq__item">
+        <summary class="ek-faq__q">¿Cancelo cuando quiera?</summary>
+        <div class="ek-faq__a">
+          <p>Sí. Un click desde el correo de bienvenida, o un email a
+          hola@earthkeeper.co. Sin preguntas, sin formularios, sin retención. Tu hectárea
+          queda disponible para otro padrino.</p>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STICKY MOBILE CTA ============ -->
+<div class="ek-stickybar" id="stickybar" aria-hidden="true">
+  <div class="ek-stickybar__price">
+    <span class="ek-stickybar__amount" id="sticky-amount">$29.000</span>
+    <span class="ek-stickybar__cadence">COP / mes · cancela cuando quieras</span>
+  </div>
+  <a class="ek-btn" href="#form" data-ek-scroll-form>
+    Apadrinar
+    <span class="arrow-i" style="display:inline-flex"><i data-ek-icon="arrow" data-ek-size="14"></i></span>
+  </a>
+</div>
+
+<!-- ============ FOOTER ============ -->
+<footer class="ek-footer">
+  <div class="ek-shell ek-footer__row">
+    <div>
+      <div class="ek-footer__brand">EarthKeeper</div>
+      <div>Cuidando el bosque tropical colombiano, una hectárea a la vez.</div>
+      <div class="ek-footer__legal">© 2026 EarthKeeper · Colombia · <a href="/salva">Ver oferta anual →</a></div>
+    </div>
+    <div style="text-align:right">
+      <div style="margin-bottom:6px">¿Preguntas?</div>
+      <a href="mailto:hola@earthkeeper.co">hola@earthkeeper.co</a>
+    </div>
+  </div>
+</footer>
+
+<script src="page-config.js"></script>
+<script src="icons.js"></script>
+<script src="hectare-grid.js"></script>
+<script src="motion.js"></script>
+<script src="analytics.js"></script>
+</body>
+</html>
